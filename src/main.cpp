@@ -5,10 +5,12 @@
 #include <pybind11/functional.h>
 #include  <pybind11/chrono.h>
 #include "modern_robotics.h"
-#include "MR_Indy7.h"
+#include <iostream>
+#include <vector>
 #define STRINGIFY(x) #x
 #define MACRO_STRINGIFY(x) STRINGIFY(x)
 using namespace mr;
+using namespace std;
 namespace py = pybind11;
 
 PYBIND11_MODULE(modern_robotics, m) {
@@ -313,8 +315,7 @@ m.def("LieScrewTrajectory", [](const SE3 X0,const SE3 XT,const Vector6d V0,const
 
 
     
-     py::class_<MR_Indy7>(m, "MR_Indy7")
-        .def(py::init<>()); // Constructor
+
 #ifdef VERSION_INFO
     m.attr("__version__") = MACRO_STRINGIFY(VERSION_INFO);
 #else

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: modern-robotics
+Version: 0.0.1
+Summary: Fast Modern Robotics
+Home-page: UNKNOWN
+Author: Minchang Sung
+Author-email: tjdalsckd@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Provides-Extra: test
+License-File: LICENSE
+
+UNKNOWN
+

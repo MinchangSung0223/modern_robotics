@@ -1,0 +1,8 @@
+# ninja log v5
+1	6272	1690855003133948039	CMakeFiles/modern_robotics.dir/src/main.cpp.o	35815647b2951a6c
+1	4858	1690855001723948223	CMakeFiles/modern_robotics.dir/src/MR_Indy7.cpp.o	934d432cc06cdb23
+1	40134	1690855037003944494	CMakeFiles/modern_robotics.dir/src/modern_robotics_relative.cpp.o	506353d34e371fe9
+40134	52401	1690855049263941975	../../lib.linux-x86_64-3.10/modern_robotics.cpython-310-x86_64-linux-gnu.so	6b78820c8b2e9a10
+1	34798	1690855031663945154	CMakeFiles/modern_robotics.dir/src/modern_robotics.cpp.o	3cc6b9c4db1ffb56
+1	3874	1690855586193929195	CMakeFiles/modern_robotics.dir/src/main.cpp.o	35815647b2951a6c
+3874	12919	1690855595233930231	../../lib.linux-x86_64-3.10/modern_robotics.cpython-310-x86_64-linux-gnu.so	1dd09df762b824c7
