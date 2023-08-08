@@ -195,7 +195,7 @@ while(t<endTime):
 		clicked_index = clicked_index+1
 		if ((e[0] == 2) and (e[3] == 0) and (e[4] & p.KEY_WAS_TRIGGERED)):
 			i=0
-			XT= T@mr.MatrixExp6(mr.VecTose3(np.array([(np.random.rand(1)-0.5)*0.2,(np.random.rand(1)-0.5)*0.2,(np.random.rand(1)-0.5)*0.2,(np.random.rand(1)-0.5)*0.2,(np.random.rand(1)-0.5)*0.2,(np.random.rand(1)-0.5)*0.2])))
+			XT= T@mr.MatrixExp6(mr.VecTose3(np.array([(np.random.rand(1)-0.5)*0.5,(np.random.rand(1)-0.5)*0.5,(np.random.rand(1)-0.5)*0.5,(np.random.rand(1)-0.5)*0.1,(np.random.rand(1)-0.5)*0.1,(np.random.rand(1)-0.5)*0.1])))
 			
 			Xd_list,Vd_list,dVd_list=mr.LieScrewTrajectory(T,XT,(Vd),VT,(dVd),dVT,2,2000);
 			data_dict = {

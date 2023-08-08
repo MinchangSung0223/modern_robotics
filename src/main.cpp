@@ -74,6 +74,11 @@ PYBIND11_MODULE(modern_robotics, m) {
    m.def("TransToR", [](const SE3& T) {
         return TransToR(T);
     });    
+    m.def("TransToRp", [](const SE3& T) {
+        SO3 R = TransToR(T);  
+        Vector3d p = TransToP(T);  
+        return std::make_pair(R, p);  
+    });    
    m.def("JacobianSpace", [](const ScrewList& Slist, const JVec& thetaList) {
         return JacobianSpace(Slist,thetaList);
     });    
